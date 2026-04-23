@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="slides-format" content="viewport">
+  <title>Projeto Integrador</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">
+    @theme {
+      --color-bg: #18181B;
+      --color-bg-deep: #09090B;
+      --color-surface: #27272A;
+      --color-text: #FAFAFA;
+      --color-text-secondary: #D4D4D8;
+      --color-text-muted: #A1A1AA;
+      --color-accent-1: #F97316;
+      --color-accent-2: #14B8A6;
+      --color-accent-3: #FEF3C7;
+      --color-glass-bg: rgba(255,255,255,0.06);
+      --color-glass-border: rgba(255,255,255,0.10);
+      --color-vignette: rgba(0,0,0,0.42);
+      --font-display: 'Archivo Black', sans-serif;
+      --font-body: 'DM Sans', sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="mouse-spotlight"></div>
+  <div class="deck">
+    <div class="slide slide-1 active" data-slide="1">
+      <div class="gradient-mesh">
+        <div class="blob" style="width:520px;height:520px;top:-120px;right:-100px;background:#F97316;opacity:.16"></div>
+        <div class="blob" style="width:320px;height:320px;bottom:-80px;left:-60px;background:#14B8A6;opacity:.12"></div>
+        <div class="blob" style="width:220px;height:220px;top:42%;left:18%;background:#FEF3C7;opacity:.10"></div>
+      </div>
+      <canvas class="particle-canvas" style="position:absolute;inset:0;z-index:1"></canvas>
+      <div class="content text-center">
+        <div class="emoji-hero reveal">📱</div>
+        <h1
+          class="font-display text-[clamp(2.4rem,5.8vw,5rem)] tracking-tight mb-4 reveal bg-linear-to-br from-accent-1 via-accent-2 to-accent-3 bg-clip-text text-transparent">
+          Projeto Integrador</h1>
+        <p class="text-[clamp(0.95rem,1.4vw,1.3rem)] uppercase tracking-[6px] text-text-muted reveal">React Native +
+          Expo</p>
+      </div>
+    </div>
+
+    <div class="slide slide-2" data-slide="2">
+      <div class="gradient-mesh">
+        <div class="blob" style="width:340px;height:340px;top:-60px;right:-60px;background:#F97316;opacity:.08"></div>
+        <div class="blob" style="width:260px;height:260px;bottom:-60px;left:-40px;background:#14B8A6;opacity:.06"></div>
+      </div>
+      <div class="deco-shape" data-speed="0.03" style="width:180px;height:180px;top:18%;left:8%"></div>
+      <div class="content">
+        <h2 class="font-display text-5xl mb-8 reveal">Visão geral</h2>
+        <div class="grid grid-cols-2 gap-6 mt-6">
+          <div
+            class="bg-glass-bg backdrop-blur-xl border border-glass-border rounded-2xl p-8 reveal hover:-translate-y-1 hover:shadow-xl transition">
+            <p class="uppercase tracking-[4px] text-text-muted text-sm mb-3">Tema</p>
+            <p class="text-2xl font-bold text-text">Plataforma de apoio à concorrência pública para MEIs</p>
+            <p class="text-text-secondary mt-4 text-lg">O desafio parte da Lei nº 14.133/2021 e transforma um problema
+              real de acesso a licitações em uma solução mobile.</p>
+          </div>
+          <div
+            class="bg-glass-bg backdrop-blur-xl border border-glass-border rounded-2xl p-8 reveal hover:-translate-y-1 hover:shadow-xl transition">
+            <p class="uppercase tracking-[4px] text-text-muted text-sm mb-3">Recorte</p>
+            <p class="text-2xl font-bold text-text">Aplicativo mobile multiplataforma</p>
+            <p class="text-text-secondary mt-4 text-lg">A entrega da disciplina foca em React Native + Expo, experiência
+              mobile-first, integração com backend e validação em smartphone.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide slide-3" data-slide="3">
+      <div class="gradient-mesh">
+        <div class="blob" style="width:320px;height:320px;top:-80px;right:-80px;background:#14B8A6;opacity:.08"></div>
+        <div class="blob" style="width:250px;height:250px;bottom:-70px;left:-60px;background:#F97316;opacity:.06"></div>
+      </div>
+      <div class="content">
+        <h2 class="font-display text-5xl mb-8 reveal">Problema e objetivo</h2>
+        <div class="grid grid-cols-2 gap-6">
+          <div class="bg-glass-bg backdrop-blur-xl border border-glass-border rounded-2xl p-8 reveal">
+            <p class="text-3xl mb-4">⚠️</p>
+            <h3 class="text-2xl font-bold mb-4">Problema central</h3>
+            <p class="text-lg text-text-secondary leading-relaxed">MEIs têm dificuldade para localizar oportunidades,
+              entender requisitos, organizar documentos e acompanhar prazos de licitação.</p>
+          </div>
+          <div class="bg-glass-bg backdrop-blur-xl border border-glass-border rounded-2xl p-8 reveal">
+            <p class="text-3xl mb-4">🎯</p>
+            <h3 class="text-2xl font-bold mb-4">Objetivo da solução</h3>
+            <p class="text-lg text-text-secondary leading-relaxed">Democratizar a participação em licitações por meio de
+              um app que centraliza editais, checklists, alertas e histórico de participação.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide slide-4" data-slide="4">
+      <div class="gradient-mesh">
+        <div class="blob" style="width:350px;height:350px;top:-90px;right:-70px;background:#F97316;opacity:.08"></div>
+        <div class="blob" style="width:220px;height:220px;bottom:-40px;left:-40px;background:#14B8A6;opacity:.07"></div>
+      </div>
+      <canvas class="particle-canvas-ambient" style="position:absolute;inset:0;z-index:1"></canvas>
+      <div class="content">
+        <p class="uppercase tracking-[5px] text-text-muted text-sm mb-3 reveal">MVP mobile</p>
+        <h2 class="font-display text-5xl mb-8 reveal">Fluxos e telas esperados</h2>
+        <div class="grid grid-cols-3 gap-5 mt-6">
+          <div
+            class="bg-glass-bg backdrop-blur-xl border border-glass-border rounded-2xl p-6 reveal hover:-translate-y-1 hover:shadow-xl transition">
+            <div class="text-3xl mb-3">🔐</div>
+            <h3 class="text-xl font-bold mb-2">Onboarding e login</h3>
+            <p class="text-text-secondary">Entrada no app, autenticação e primeiros passos do usuário.</p>
+          </div>
+          <div
+            class="bg-glass-bg backdrop-blur-xl border border-glass-border rounded-2xl p-6 reveal hover:-translate-y-1 hover:shadow-xl transition">
+            <div class="text-3xl mb-3">🔎</div>
+            <h3 class="text-xl font-bold mb-2">Lista de editais</h3>
+            <p class="text-text-secondary">Busca, filtros e navegação mobile para oportunidades abertas.</p>
+          </div>
+          <div
+            class="bg-glass-bg backdrop-blur-xl border border-glass-border rounded-2xl p-6 reveal hover:-translate-y-1 hover:shadow-xl transition">
+            <div class="text-3xl mb-3">📋</div>
+            <h3 class="text-xl font-bold mb-2">Detalhe e checklist</h3>
+            <p class="text-text-secondary">Requisitos, elegibilidade e checklist de habilitação.</p>
+          </div>
+          <div
+            class="bg-glass-bg backdrop-blur-xl border border-glass-border rounded-2xl p-6 reveal hover:-translate-y-1 hover:shadow-xl transition">
+            <div class="text-3xl mb-3">🗂️</div>
+            <h3 class="text-xl font-bold mb-2">Documentos</h3>
+            <p class="text-text-secondary">Upload, visualização e pendências dos arquivos exigidos.</p>
+          </div>
+          <div
+            class="bg-glass-bg backdrop-blur-xl border border-glass-border rounded-2xl p-6 reveal hover:-translate-y-1 hover:shadow-xl transition">
+            <div class="text-3xl mb-3">🔔</div>
+            <h3 class="text-xl font-bold mb-2">Alertas</h3>
+            <p class="text-text-secondary">Notificações e calendário de prazos importantes.</p>
+          </div>
+          <div
+            class="bg-glass-bg backdrop-blur-xl border border-glass-border rounded-2xl p-6 reveal hover:-translate-y-1 hover:shadow-xl transition">
+            <div class="text-3xl mb-3">📊</div>
+            <h3 class="text-xl font-bold mb-2">Dashboard</h3>
+            <p class="text-text-secondary">Resumo do histórico e andamento das participações.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide slide-5" data-slide="5">
+      <div class="gradient-mesh">
+        <div class="blob" style="width:330px;height:330px;top:-60px;right:-70px;background:#14B8A6;opacity:.08"></div>
+        <div class="blob" style="width:230px;height:230px;bottom:-40px;left:-30px;background:#FEF3C7;opacity:.05"></div>
+      </div>
+      <div class="deco-shape" data-speed="0.04" style="width:160px;height:160px;top:15%;right:14%"></div>
+      <div class="content">
+        <h2 class="font-display text-5xl mb-8 reveal">Entregáveis dos alunos</h2>
+        <div class="grid grid-cols-3 gap-5">
+          <div class="bg-glass-bg backdrop-blur-xl border border-glass-border rounded-2xl p-6 reveal">
+            <h3 class="text-xl font-bold mb-3">UX e produto</h3>
+            <p class="text-text-secondary">Mapa de navegação, protótipos, jornadas e backlog técnico.</p>
+          </div>
+          <div class="bg-glass-bg backdrop-blur-xl border border-glass-border rounded-2xl p-6 reveal">
+            <h3 class="text-xl font-bold mb-3">Código e arquitetura</h3>
+            <p class="text-text-secondary">Projeto Expo organizado, componentes, telas, hooks, serviços e integração.
+            </p>
+          </div>
+          <div class="bg-glass-bg backdrop-blur-xl border border-glass-border rounded-2xl p-6 reveal">
+            <h3 class="text-xl font-bold mb-3">Validação</h3>
+            <p class="text-text-secondary">Build ou demo, testes funcionais, evidências em dispositivos e documentação
+              mínima.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide slide-6" data-slide="6">
+      <div class="gradient-mesh">
+        <div class="blob" style="width:360px;height:360px;top:-90px;right:-90px;background:#F97316;opacity:.08"></div>
+        <div class="blob" style="width:260px;height:260px;bottom:-70px;left:-40px;background:#14B8A6;opacity:.06"></div>
+      </div>
+      <div class="content">
+        <h2 class="font-display text-5xl mb-8 reveal">Como o professor avaliará</h2>
+        <div class="grid grid-cols-2 gap-6">
+          <div class="space-y-4 reveal">
+            <div
+              class="bg-glass-bg backdrop-blur-xl border-l-4 border-accent-1 border border-glass-border rounded-2xl p-5">
+              <strong>Aderência ao escopo</strong>
+              <p class="text-text-secondary mt-2">O app precisa responder ao problema e respeitar o recorte do MVP.</p>
+            </div>
+            <div
+              class="bg-glass-bg backdrop-blur-xl border-l-4 border-accent-2 border border-glass-border rounded-2xl p-5">
+              <strong>Experiência mobile</strong>
+              <p class="text-text-secondary mt-2">Fluxo, usabilidade, estados de tela, acessibilidade e consistência
+                visual.</p>
+            </div>
+            <div
+              class="bg-glass-bg backdrop-blur-xl border-l-4 border-accent-1 border border-glass-border rounded-2xl p-5">
+              <strong>Implementação técnica</strong>
+              <p class="text-text-secondary mt-2">Componentização, navegação, estado, integração e boas práticas em
+                React Native.</p>
+            </div>
+          </div>
+          <div class="space-y-4 reveal">
+            <div
+              class="bg-glass-bg backdrop-blur-xl border-l-4 border-accent-2 border border-glass-border rounded-2xl p-5">
+              <strong>Testes e qualidade</strong>
+              <p class="text-text-secondary mt-2">Validação em emuladores e aparelhos reais, correção de bugs e robustez
+                mínima.</p>
+            </div>
+            <div
+              class="bg-glass-bg backdrop-blur-xl border-l-4 border-accent-1 border border-glass-border rounded-2xl p-5">
+              <strong>Documentação</strong>
+              <p class="text-text-secondary mt-2">Repositório organizado, setup claro, backlog, protótipos e decisões
+                registradas.</p>
+            </div>
+            <div
+              class="bg-glass-bg backdrop-blur-xl border-l-4 border-accent-2 border border-glass-border rounded-2xl p-5">
+              <strong>Apresentação final</strong>
+              <p class="text-text-secondary mt-2">Demonstração do app, domínio técnico, aprendizados e comunicação da
+                solução.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide slide-7" data-slide="7">
+      <div class="gradient-mesh">
+        <div class="blob" style="width:350px;height:350px;top:-60px;right:-70px;background:#14B8A6;opacity:.08"></div>
+        <div class="blob" style="width:240px;height:240px;bottom:-40px;left:-40px;background:#F97316;opacity:.06"></div>
+      </div>
+      <div class="content">
+        <h2 class="font-display text-5xl mb-8 reveal">Cronograma de entregas</h2>
+        <div class="grid grid-cols-2 gap-8 items-start">
+          <div class="space-y-4 reveal">
+            <div class="bg-glass-bg backdrop-blur-xl border border-glass-border rounded-2xl p-5"><strong>Semanas
+                7–9</strong>
+              <p class="text-text-secondary mt-2">Escopo mobile, wireframes, protótipo e base do app com Expo.</p>
+            </div>
+            <div class="bg-glass-bg backdrop-blur-xl border border-glass-border rounded-2xl p-5"><strong>Semanas
+                10–12</strong>
+              <p class="text-text-secondary mt-2">Fluxos de editais, checklist, documentos, alertas, dashboard e MVP
+                integrado.</p>
+            </div>
+            <div class="bg-glass-bg backdrop-blur-xl border border-glass-border rounded-2xl p-5"><strong>Semanas
+                13–16</strong>
+              <p class="text-text-secondary mt-2">Testes, refinamento, validação com usuários, documentação e
+                apresentação final.</p>
+            </div>
+          </div>
+          <div class="bg-glass-bg backdrop-blur-xl border border-glass-border rounded-2xl p-6 reveal">
+            <p class="uppercase tracking-[4px] text-text-muted text-sm mb-4">Milestones</p>
+            <div class="space-y-5">
+              <div>
+                <div class="flex justify-between text-sm mb-2"><span>Capstone 1</span><span>Consulta de editais</span>
+                </div>
+                <div class="bar-track">
+                  <div class="bar-fill" data-width="25"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-sm mb-2"><span>Milestone 1</span><span>Proposta operacional</span>
+                </div>
+                <div class="bar-track">
+                  <div class="bar-fill" data-width="45"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-sm mb-2"><span>Capstone 2</span><span>MVP integrado</span></div>
+                <div class="bar-track">
+                  <div class="bar-fill" data-width="65"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-sm mb-2"><span>Capstone 3</span><span>Release candidate</span>
+                </div>
+                <div class="bar-track">
+                  <div class="bar-fill" data-width="82"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-sm mb-2"><span>Entrega final</span><span>App demonstrável</span>
+                </div>
+                <div class="bar-track">
+                  <div class="bar-fill" data-width="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide slide-8" data-slide="8">
+      <div class="gradient-mesh">
+        <div class="blob" style="width:360px;height:360px;top:-100px;right:-80px;background:#F97316;opacity:.12"></div>
+        <div class="blob" style="width:280px;height:280px;bottom:-70px;left:-50px;background:#14B8A6;opacity:.10"></div>
+        <div class="blob" style="width:220px;height:220px;top:45%;left:20%;background:#FEF3C7;opacity:.08"></div>
+      </div>
+      <canvas class="particle-canvas" style="position:absolute;inset:0;z-index:1"></canvas>
+      <div class="content text-center">
+        <div class="emoji-hero reveal">🚀</div>
+        <h2
+          class="font-display text-[clamp(2.4rem,5vw,4.5rem)] mb-4 reveal bg-linear-to-br from-accent-1 via-accent-2 to-accent-3 bg-clip-text text-transparent">
+          O que esperamos da turma</h2>
+        <p class="text-2xl text-text-secondary max-w-4xl mx-auto reveal">Construir um aplicativo mobile funcional, bem
+          estruturado e apresentável, conectando produto, código, integração, testes e experiência real em dispositivos.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="nav-controls">
+    <button class="nav-btn" onclick="changeSlide(-1)" aria-label="Slide anterior">&#8249;</button>
+    <div class="slide-dots" id="dots"></div>
+    <button class="nav-btn" onclick="changeSlide(1)" aria-label="Próximo slide">&#8250;</button>
+    <span class="slide-counter" id="counter">1 / 8</span>
+  </div>
+  <script>
+    let current = 1;
+    const total = document.querySelectorAll('.slide').length;
+    const dotsContainer = document.getElementById('dots');
+    const counter = document.getElementById('counter');
+    for (let i = 1; i <= total; i++) { const dot = document.createElement('div'); dot.className = 'dot' + (i === 1 ? ' active' : ''); dot.onclick = () => goToSlide(i); dotsContainer.appendChild(dot); }
+    function goToSlide(n) { const prev = document.querySelector('.slide.active'); const next = document.querySelector(`.slide[data-slide="${n}"]`); if (prev) prev.classList.remove('active'); if (next) { next.classList.add('active'); animateSlide(next); } current = n; updateNav(); }
+    function changeSlide(dir) { let next = current + dir; if (next < 1) next = total; if (next > total) next = 1; goToSlide(next); }
+    function updateNav() { document.querySelectorAll('.dot').forEach((d, i) => d.classList.toggle('active', i + 1 === current)); counter.textContent = current + ' / ' + total; }
+    document.addEventListener('keydown', (e) => { if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); changeSlide(1); } if (e.key === 'ArrowLeft') { e.preventDefault(); changeSlide(-1); } });
+    let touchStartX = 0;
+    document.addEventListener('touchstart', (e) => { touchStartX = e.touches[0].clientX; });
+    document.addEventListener('touchend', (e) => { const diff = touchStartX - e.changedTouches[0].clientX; if (Math.abs(diff) > 50) changeSlide(diff > 0 ? 1 : -1); });
+    function animateSlide(slide) {
+      slide.querySelectorAll('.reveal').forEach((el, i) => {
+        el.style.transition = 'none'; el.style.opacity = '0'; el.style.transform = 'translateY(20px)'; el.offsetHeight;
+        const delay = i * 0.08; el.style.transition = `opacity 0.35s ease ${delay}s, transform 0.35s ease ${delay}s`; el.style.opacity = '1'; el.style.transform = 'translateY(0px)';
+      });
+      slide.querySelectorAll('.bar-fill:not(.fill-init)').forEach((bar, i) => { bar.classList.add('fill-init'); bar.style.width = '0%'; bar.style.transition = `width .6s ease ${i * .08}s`; bar.offsetHeight; bar.style.width = bar.dataset.width + '%'; });
+    }
+    document.addEventListener('mousemove', (e) => { const spotlight = document.querySelector('.mouse-spotlight'); if (spotlight) { spotlight.style.background = `radial-gradient(600px circle at ${e.clientX}px ${e.clientY}px, rgba(249,115,22,0.06), transparent 40%)`; } });
+    (function () { let mouseX = window.innerWidth / 2, mouseY = window.innerHeight / 2; const cx = window.innerWidth / 2, cy = window.innerHeight / 2; document.addEventListener('mousemove', (e) => { mouseX = e.clientX; mouseY = e.clientY; }); (function tick() { const ox = (mouseX - cx) / cx, oy = (mouseY - cy) / cy; document.querySelectorAll('.deco-shape').forEach(shape => { const speed = parseFloat(shape.dataset.speed) || 0.03; shape.style.transform = `translate(${ox * speed * 100}px, ${oy * speed * 100}px)`; }); requestAnimationFrame(tick); })(); })();
+    window.initParticles = function (canvas, options) {
+      if (!canvas) return; const ctx = canvas.getContext('2d'); canvas.width = canvas.offsetWidth; canvas.height = canvas.offsetHeight; const interactive = options.interactive !== false; const count = options.count || (interactive ? 55 : 18); let mx = -1000, my = -1000; const particles = Array.from({ length: count }, () => ({ x: Math.random() * canvas.width, y: Math.random() * canvas.height, vx: (Math.random() - 0.5) * 0.3, vy: (Math.random() - 0.5) * 0.3, size: Math.random() * 2.5 + 0.8, alpha: Math.random() * 0.35 + 0.1 }));
+      if (interactive) { canvas.addEventListener('mousemove', (e) => { const rect = canvas.getBoundingClientRect(); mx = e.clientX - rect.left; my = e.clientY - rect.top; }); canvas.addEventListener('mouseleave', () => { mx = -1000; my = -1000; }); }
+      (function animate() { ctx.clearRect(0, 0, canvas.width, canvas.height); particles.forEach(p => { if (interactive) { const dx = p.x - mx, dy = p.y - my, dist = Math.sqrt(dx * dx + dy * dy); if (dist < 120) { const force = (120 - dist) / 120 * 2; p.vx += (dx / (dist || 1)) * force * 0.1; p.vy += (dy / (dist || 1)) * force * 0.1; } } p.vx *= 0.98; p.vy *= 0.98; p.x += p.vx; p.y += p.vy; if (p.x < 0) p.x = canvas.width; if (p.x > canvas.width) p.x = 0; if (p.y < 0) p.y = canvas.height; if (p.y > canvas.height) p.y = 0; ctx.beginPath(); ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2); ctx.fillStyle = `rgba(249,115,22,${p.alpha})`; ctx.fill(); }); requestAnimationFrame(animate); })();
+    };
+    document.querySelectorAll('.particle-canvas').forEach(c => window.initParticles(c, { interactive: true, count: 55 }));
+    document.querySelectorAll('.particle-canvas-ambient').forEach(c => window.initParticles(c, { interactive: false, count: 18 }));
+    try { animateSlide(document.querySelector('.slide.active')); } catch (e) { }
+  </script>
+</body>
+
+</html>

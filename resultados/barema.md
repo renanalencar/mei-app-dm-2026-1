@@ -30,9 +30,9 @@ Utilize a tabela abaixo para computar e consolidar a nota de cada uma das 11 equ
 | **Equipe 05** | https://github.com/Debburiti/noMEI |1,0 |1,0 |1,0 |1,0 |0,9 |0,7 |0,4 | **6,0** | |
 | **Equipe 07** | https://github.com/henryzera/front-projeto-integrador |1,0 |1,0 |1,0 |0,8 |0,8 |0,6 |0,3 | **5,5** | Grupo não entregou slides de apresentação nem vídeo demonstrativo. |
 | **Equipe 08** | https://github.com/lblima038/LicitAcesso |1,0 |1,0 |1,0 |1,0 |0,9 |0,7 |0,4 | **6,0** | |
-| **Equipe 09** | https://github.com/Arthur5502/projeto-integrador-front |1,0 |1,0 |1,0 |0,9 |0,9 |0,7 |0,4 | **5,90** | Grupo não entregou vídeo demonstrativo. |
+| **Equipe 09** | https://github.com/Arthur5502/projeto-integrador-front |1,0 |1,0 |1,0 |0,9 |0,9 |0,7 |0,4 | **5,9** | Grupo não entregou vídeo demonstrativo. |
 | **Equipe 10** | https://github.com/VyNas07/Licitei |1,0 |1,0 |1,0 |1,0 |0,9 |0,7 |0,4 | **6,0** | |
-| **Equipe 11** | https://github.com/Isaac-Daniel-A-D/Editais-Front |1,0 |1,0 |1,0 |0,8 |0,9 |0,7 |0,4 | **0,0** | Grupo não entregou slides de apresentação nem vídeo demonstrativo. |
+| **Equipe 11** | https://github.com/Isaac-Daniel-A-D/Editais-Front |1,0 |1,0 |1,0 |0,8 |0,9 |0,7 |0,4 | **5,7** | Grupo não entregou slides de apresentação nem vídeo demonstrativo. |
 
 ---
 

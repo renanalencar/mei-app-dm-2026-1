@@ -5,6 +5,8 @@
 
 Este barema foi estruturado para avaliar aspectos cruciais do desenvolvimento de software, focando na entrega de funcionalidades, qualidade técnica e experiência do usuário.
 
+- Planilha de Grupos: [Google Spreedsheets](https://docs.google.com/spreadsheets/d/1XB6kOAkk3PpuK3nGaNExzRVsl802OagqdIXoH9B_ZhY/edit?usp=sharing)
+
 ## 📊 Critérios de Avaliação
 
 | Critério | Descrição | Pontuação Máxima |

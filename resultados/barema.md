@@ -21,18 +21,18 @@ Este barema foi estruturado para avaliar aspectos cruciais do desenvolvimento de
 
 Utilize a tabela abaixo para computar e consolidar a nota de cada uma das 11 equipes.
 
-| Equipe | Repositório | M1 | M2 | M3 | 1. Requisitos (1,0) | 2. Código (0,9) | 3. UI/UX (0,7) | 4. Estabilidade (0,4) | **Nota Final (até 6,0)** | Observações Gerais |
+| Equipe | Repositório | M1 (1,0) | M2 (1,0) | M3 (1,0) | Requisitos (1,0) | Código (0,9) | UI/UX (0,7) | Estabilidade (0,4) | **Nota Final (6,0)** | Observações |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| **Equipe 01** | https://github.com/DavidaMendes/Public_Procurement_Opportunities |1,0 |1,0 |1,0 |1,0 |0,9 |0,7 |0,4 | **6,0** | |
-| **Equipe 02** | https://github.com/ibiapleo/app-painel-MEI-PNCP |1,0 |1,0 |1,0 |1,0 |0,9 |0,7 |0,4 | **6,0** | |
-| **Equipe 03** | https://github.com/gabrielfariaxs/Eng.-Dados |1,0 |1,0 |1,0 |0,5 |0,6 |0,7 |0,4 | **5,2** | Grupo não entregou slides de apresentação, vídeo demonstrativo nem APK da aplicação. |
-| **Equipe 04** | https://github.com/brokendeveloper/projeto-integrador |1,0 |1,0 |1,0 |1,0 |0,9 |0,7 |0,4 | **6,0** | |
-| **Equipe 05** | https://github.com/Debburiti/noMEI |1,0 |1,0 |1,0 |1,0 |0,9 |0,7 |0,4 | **6,0** | |
-| **Equipe 07** | https://github.com/henryzera/front-projeto-integrador |1,0 |1,0 |1,0 |0,8 |0,8 |0,6 |0,3 | **5,5** | Grupo não entregou slides de apresentação nem vídeo demonstrativo. |
-| **Equipe 08** | https://github.com/lblima038/LicitAcesso |1,0 |1,0 |1,0 |1,0 |0,9 |0,7 |0,4 | **6,0** | |
-| **Equipe 09** | https://github.com/Arthur5502/projeto-integrador-front |1,0 |1,0 |1,0 |0,9 |0,9 |0,7 |0,4 | **5,9** | Grupo não entregou vídeo demonstrativo. |
-| **Equipe 10** | https://github.com/VyNas07/Licitei |1,0 |1,0 |1,0 |1,0 |0,9 |0,7 |0,4 | **6,0** | |
-| **Equipe 11** | https://github.com/Isaac-Daniel-A-D/Editais-Front |1,0 |1,0 |1,0 |0,8 |0,9 |0,7 |0,4 | **5,7** | Grupo não entregou slides de apresentação nem vídeo demonstrativo. |
+| **01** | [GitHub](https://github.com/DavidaMendes/Public_Procurement_Opportunities) |1,0 |1,0 |1,0 |1,0 |0,9 |0,7 |0,4 | **6,0** | |
+| **02** | [GitHub](https://github.com/ibiapleo/app-painel-MEI-PNCP) |1,0 |1,0 |1,0 |1,0 |0,9 |0,7 |0,4 | **6,0** | |
+| **03** | [GitHub](https://github.com/gabrielfariaxs/Eng.-Dados) |1,0 |1,0 |1,0 |0,5 |0,6 |0,7 |0,4 | **5,2** | Grupo não entregou slides de apresentação, vídeo demonstrativo nem APK da aplicação. |
+| **04** | [GitHub](https://github.com/brokendeveloper/projeto-integrador) |1,0 |1,0 |1,0 |1,0 |0,9 |0,7 |0,4 | **6,0** | |
+| **05** | [GitHub](https://github.com/Debburiti/noMEI) |1,0 |1,0 |1,0 |1,0 |0,9 |0,7 |0,4 | **6,0** | |
+| **07** | [GitHub](https://github.com/henryzera/front-projeto-integrador) |1,0 |1,0 |1,0 |0,8 |0,8 |0,6 |0,3 | **5,5** | Grupo não entregou slides de apresentação nem vídeo demonstrativo. |
+| **08** |   [GitHub](https://github.com/lblima038/LicitAcesso) |1,0 |1,0 |1,0 |1,0 |0,9 |0,7 |0,4 | **6,0** | |
+| **09** | [GitHub](https://github.com/Arthur5502/projeto-integrador-front) |1,0 |1,0 |1,0 |0,9 |0,9 |0,7 |0,4 | **5,9** | Grupo não entregou vídeo demonstrativo. |
+| **10** | [GitHub](https://github.com/VyNas07/Licitei) |1,0 |1,0 |1,0 |1,0 |0,9 |0,7 |0,4 | **6,0** | |
+| **11** | [GitHub](https://github.com/Isaac-Daniel-A-D/Editais-Front) |1,0 |1,0 |1,0 |0,8 |0,9 |0,7 |0,4 | **5,7** | Grupo não entregou slides de apresentação nem vídeo demonstrativo. |
 
 ---
 

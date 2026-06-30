@@ -33,7 +33,7 @@ Utilize a tabela abaixo para computar e consolidar a nota de cada uma das 11 equ
 | **07** | [GitHub](https://github.com/henryzera/front-projeto-integrador) |1,0 |1,0 |1,0 |0,8 |0,8 |0,6 |0,3 | **5,5** | Grupo não entregou slides de apresentação nem vídeo demonstrativo. |
 | **08** |   [GitHub](https://github.com/lblima038/LicitAcesso) |1,0 |1,0 |1,0 |1,0 |0,9 |0,7 |0,4 | **6,0** | |
 | **09** | [GitHub](https://github.com/Arthur5502/projeto-integrador-front) |1,0 |1,0 |1,0 |0,9 |0,9 |0,7 |0,4 | **5,9** | Grupo não entregou vídeo demonstrativo. |
-| **10** | [GitHub](https://github.com/VyNas07/Licitei) |1,0 |1,0 |1,0 |1,0 |0,9 |0,7 |0,4 | **6,0** | |
+| **10** | [GitHub](https://github.com/VyNas07/Licitei) |1,0 |1,0 |1,0 |0,0 |0,9 |0,7 |0,4 | **5,0** | Grupo não realizou a entrega do Milestone 3. |
 | **11** | [GitHub](https://github.com/Isaac-Daniel-A-D/Editais-Front) |1,0 |1,0 |1,0 |0,8 |0,9 |0,7 |0,4 | **5,7** | Grupo não entregou slides de apresentação nem vídeo demonstrativo. |
 
 ---

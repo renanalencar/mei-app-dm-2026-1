@@ -21,7 +21,7 @@ Este barema foi estruturado para avaliar aspectos cruciais do desenvolvimento de
 
 Utilize a tabela abaixo para computar e consolidar a nota de cada uma das 11 equipes.
 
-| Equipe | Repositório | M1 | M2 | M3 | 1. Requisitos (1,0) | 2. Código (0,9) | 3. UI/UX (0,7) | 4. Estabilidade (0,4) | **Nota Final (3,0)** | Observações Gerais |
+| Equipe | Repositório | M1 | M2 | M3 | 1. Requisitos (1,0) | 2. Código (0,9) | 3. UI/UX (0,7) | 4. Estabilidade (0,4) | **Nota Final (até 6,0)** | Observações Gerais |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
 | **Equipe 01** | https://github.com/DavidaMendes/Public_Procurement_Opportunities |1,0 |1,0 |1,0 |1,0 |0,9 |0,7 |0,4 | **6,0** | |
 | **Equipe 02** | https://github.com/ibiapleo/app-painel-MEI-PNCP |1,0 |1,0 |1,0 |1,0 |0,9 |0,7 |0,4 | **6,0** | |
